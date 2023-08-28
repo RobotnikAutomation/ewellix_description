@@ -89,7 +89,7 @@
     <joint name="${prefix}ewellix_lift_top_joint" type="prismatic">
       <parent link="${prefix}ewellix_lift_base_link"/>
       <child link="${prefix}ewellix_lift_top_link" />
-      <origin xyz="0 0 0.645" rpy="0 0 0" />
+      <origin xyz="0 0 0.640" rpy="0 0 0" />
       <limit effort="1000" lower="0.0" upper="0.7" velocity="0.088"/>
       <axis xyz="0 0 1" /> 
     </joint>
